@@ -26,7 +26,7 @@ function deleteFromList(list, index) {
     }
 }
 // Penggunaan
-let listMahasiswa = ["Budi", "Siti", "Agus"];
+let listMahasiswa = ["Boyang", "Singkuyang", "Abang"];
 console.log("List mahasiswa :");
 console.log(listMahasiswa);
 addToList(listMahasiswa, "Ani");
@@ -36,3 +36,4 @@ updateList(listMahasiswa, 2, "Agung");
 console.log("U : ",listMahasiswa);
 deleteFromList(listMahasiswa, 0);
 console.log("D : ",listMahasiswa); 
+
