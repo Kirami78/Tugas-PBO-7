@@ -21,10 +21,13 @@ function deleteFromSet(set, element) {
 }
 // Penggunaan
 let setMahasiswa = new Set(["Buya", "Siul", "Suga"]);
+console.log("Set mahasiswa :");
+console.log(setMahasiswa);
 addToSet(setMahasiswa, "Anoman");
-console.log(setMahasiswa); 
-console.log(readFromSet(setMahasiswa, "Siul")); 
+console.log("C : ",setMahasiswa); 
+console.log("R : ",readFromSet(setMahasiswa, "Siul")); 
 updateSet(setMahasiswa, "Siul", "Sial");
-console.log(setMahasiswa); 
+console.log("U : ",setMahasiswa); 
 deleteFromSet(setMahasiswa, "Buya");
-console.log(setMahasiswa); 
+console.log("D : ",setMahasiswa); 
+
